@@ -1,4 +1,6 @@
-# vCard - Personal portfolio
+#Kuldeep Kaur - Personal portfolio
+
+<!-- # vCard - Personal portfolio
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
 ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
@@ -37,7 +39,7 @@ git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 
 ## Contact
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee). -->
 
 ## License
 
