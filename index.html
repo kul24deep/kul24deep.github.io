@@ -74,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:kaur24kuldeep@gmail.com" class="contact-link">kaur24kuldeep@gmail.com</a>
+              <a target="_blank" href="mailto:kaur24kuldeep@gmail.com" class="contact-link" >kaur24kuldeep@gmail.com</a>
             </div>
 
           </li>
@@ -88,7 +88,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+91 8310552667</a>
+              <a href="tel:+12133522795" class="contact-link">+91-8310552667</a>
             </div>
 
           </li>
@@ -102,7 +102,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">December 24</time>
+              <time datetime="1982-06-23">December 24th</time>
             </div>
 
           </li>
@@ -144,6 +144,12 @@
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
+          
+          <li class="social-item">
+            <a href="https://www.youtube.com/channel/UCbX2Yrp4HYW23eJc2LnG0_Q" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
 
         </ul>
 
@@ -183,6 +189,12 @@
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+          <li class="navbar-item">
+            <!-- <button class="navbar-link" data-nav-link>Resume</button> -->
+            <a href="./doc/Kuldeep_Kaur_Resume.pdf"  download = "Kuldeep-Kaur-Resume" class="btn btn--primary navbar-link" 
+            onclick="window.open('https://drive.google.com/file/d/1FXRafcNYDKMtFUYw1yyc07Q2lpxriYH_/view?usp=share_link')" >Resume</a>
           </li>
 
         </ul>
@@ -554,8 +566,7 @@
               <time datetime="2021-06-14"></time>
 
               <div data-modal-text>
-                <p>
-                                  </p>
+                <p> </p>
               </div>
 
             </div>
@@ -613,7 +624,7 @@
       <article class="resume" data-page="background">
 
         <header>
-          <h2 class="h2 article-title">Education | Experience</h2>
+          <h2 class="h2 article-title">Background</h2>
         </header>
 
         <section class="timeline">
@@ -730,9 +741,7 @@
                 <h5 class="h5"><a style="color:white" href="https://drive.google.com/file/d/14lj25aVG7-LcuG_Beg-6GuhvpEJnoKiQ/view?usp=share_link"> Zoom Marathon challenge - 15 days</a></h5>
                
               </div>
-
-              
-
+            
             </li>
 
             <li class="skills-item">
@@ -823,11 +832,11 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./images/project-1.jpg" alt="brawlhalla" loading="lazy">
+                  <img src="./images/figma.png" alt="Figma" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Figma Customer Onboarding</h3>
-
+                <h5 class="timeline-text" style="color:#F8D568; margin-left:10px;">Tech stack: Reveal.js, HTML5, CSS3</h5>
                 <p class="project-category">Presentation</p>
 
               </a>
@@ -841,11 +850,11 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./images/ss.jpg" alt="dsm." loading="lazy">
+                  <img src="./images/sscreen.png" alt="GZ" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Movie Web Application </h3>
-                <h4 class="project-title">Silver Screen </h4>
+                <h3 class="project-title">Silver Screen </h3>
+                <h5 class="timeline-text" style="color:#F8D568; margin-left:10px;">Tech stack: HTML5, CSS3, JavaScript</h5>
                 <p class="project-category">Web Development</p>
 
               </a>
@@ -853,20 +862,18 @@
 
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://gadgetzon21.netlify.app/">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./images/gb.jpg" alt="summary" loading="lazy">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./images/GZ.png" alt="summary" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Gearbest, E-commerce</h3>
-
+                <h5 class="timeline-text" style="color:#F8D568; margin-left:10px;">Tech stack: HTML5, CSS3, JavaScript</h5>
                 <p class="project-category">Web development</p>
-
               </a>
             </li>
 
@@ -877,7 +884,7 @@
       </article>
   
     <!--
-        - #CONTACT
+        -- #CONTACT
       -->
 
       <article class="contact" data-page="contact">
@@ -901,51 +908,55 @@
 
           <form action="#" class="form" data-form>
 
-            <li class="contact-item">
+            <ul class="contacts-list">
 
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-  
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-  
-                <a href="mailto:kaur24kuldeep@gmail.com" class="contact-link">kaur24kuldeep@gmail.com</a>
-              </div>
-  
-            </li>
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+    
+                  <a target="_blank" href="mailto:kaur24kuldeep@gmail.com" class="contact-link">kaur24kuldeep@gmail.com</a>
+                </div>
+    
+              </li>
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+    
+                  <a href="tel:+918310552667" class="contact-link">+91 8310552667</a>
+                </div>
+    
+              </li>
+            </ul>
 
-            <!-- <div class="input-wrapper">
+      <!-- <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input></div>
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
+              <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button> -->
 
           </form>
-
         </section>
 
         <section class="skill">
 
-          <h3 style="margin-top: 20px; margin-bottom: 5px;" class="h3 skills-title">Dowload Resume</h3>
-
           <ul class="skills-list content-card">
-
             <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h4"><a style="color:white" href="https://drive.google.com/file/d/1FXRafcNYDKMtFUYw1yyc07Q2lpxriYH_/view?usp=share_link">Resume</a></h5>   
-              
-              </div>
-              <h5 class="h6" style="color: rgb(102, 102, 102)"> ** Note : You can also click on the email above or on the left side, which will straight away take you compose email section on your gmail. </h5>
-              
+              <h5 class="h6" style="color: rgb(102, 102, 102)"> ** Note : You can also click on the email above or on the left side, which will straight away take you compose email section on your gmail. </h5> 
             </li>
           </ul>
 
